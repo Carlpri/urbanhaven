@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Playfair", serif;
+  --color-light: #ecdfcc;
+  --color-lighter: #697565;
+  --color-dark: #3c3d37;
+  --color-darker: #181c14;
+  --text-color: #f97300;
+}
+body {
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+}
