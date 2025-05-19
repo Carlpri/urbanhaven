@@ -16,6 +16,32 @@ html {
   --text-color: #f97300;
 }
 body {
-  font-size: 1.6rem;
+  font-size: 1.75rem;
   font-family: var(--primary-font);
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+.header-location {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+}
+@media screen and (max-width: 600px) {
+  .header-location {
+    display: none;
+  }
+}
+.header-location-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.header-location-item i {
+  color: var(--text-color);
+  font-size: 1.5rem;
+}
+.header-location-item p {
+  font-size: 1.4rem;
+  font-weight: 750;
 }
