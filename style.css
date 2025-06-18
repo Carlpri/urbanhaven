@@ -14,7 +14,7 @@ html {
   --color-dark: #3c3d37;
   --color-darker: #181c14;
   --text-color: #f97300;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 1.75rem;
@@ -103,9 +103,9 @@ body {
   font-size: 1.5rem;
 }
 
-.scroll-to-top{
+.scroll-to-top {
   color: var(--color-light);
-  --scroll-to-top-length:10rem;
+  --scroll-to-top-length: 10rem;
   height: var(--scroll-to-top-length);
   width: var(--scroll-to-top-length);
   background-color: var(--color-lighter);
@@ -368,7 +368,7 @@ p {
   text-align: center;
 }
 
-.footer{
+.footer {
   /* padding: 0;
   font-family: var(--secondary-font);
   font-size:16px;
@@ -377,39 +377,37 @@ p {
   padding-top: 50px;
 }
 
-.container{
+.container {
   width: 1140px;
   margin: 2rem 3rem;
   display: flex;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   text-align: center;
-    /* flex-direction: row; */
+  /* flex-direction: row; */
   /* align-items: center; */
   justify-content: center;
 }
-.footer{
+.footer {
   width: 33.3%;
-  
 }
-.h3{
+.h3 {
   font-size: 30px;
   margin-bottom: 15px;
   text-align: center;
 }
-.footer-content p{
+.footer-content p {
   width: 190px;
   margin: auto;
   padding: 10px;
 }
-.footer-content ul{
+.footer-content ul {
   text-align: center;
 }
 
-.list{
+.list {
   padding: 0 8rem;
-  
 }
-.list li{
+.list li {
   width: auto;
   text-align: center;
   list-style-type: none;
@@ -417,8 +415,8 @@ p {
   position: relative;
   color: var(--text-color);
 }
-.list li::before{
-  content: '';
+.list li::before {
+  content: "";
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
@@ -426,43 +424,42 @@ p {
   width: 0;
   height: 2px;
   background: var(--text-color);
-  transition-duration: .5s;
+  transition-duration: 0.5s;
 }
-.list li:hover::before{
+.list li:hover::before {
   width: 70px;
-
 }
-.social-icons{
-  text-align:center ;
+.social-icons {
+  text-align: center;
   padding: 2rem;
 }
-.social-icons li{
+.social-icons li {
   display: inline-block;
   text-align: center;
   padding: 5px;
 }
-.social-icons i{
+.social-icons i {
   color: var(--text-color);
   font-size: 25px;
 }
-a{
+a {
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: var(--color-light);
 }
-.social-icons i:hover{
+.social-icons i:hover {
   color: var(--color-light);
 }
-.bottom-bar{
+.bottom-bar {
   background: var(--color-darker);
   text-align: center;
   justify-content: center;
-  padding:50px;
+  padding: 50px;
   text-align: center;
   /* margin-top: 50px; */
 }
-.bottom-bar p{
+.bottom-bar p {
   color: var(--text-color);
   margin: 0;
   font-size: 20px;
